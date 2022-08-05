@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { InputContext } from "../context/inputContext";
+import { InputContext } from "../context/InputContext";
 import GFResultFunction from "../lib/GFResultFunction";
 import CountUp from "react-countup";
 

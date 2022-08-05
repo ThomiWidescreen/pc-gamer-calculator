@@ -5,7 +5,7 @@ const rules = {
     brown: 4,
     black: 5,
     blonde: 8,
-    redHead: 15,
+    redhead: 15,
     grey: 12,
   },
   hairHeigth: {

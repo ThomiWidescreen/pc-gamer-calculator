@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { InputData } from "../interfaces/interfaces";
-import { InputContext } from "./inputContext";
+import { InputContext } from "./InputContext";
 
 const INITIAL_STATE: InputData = {
   age: 14,

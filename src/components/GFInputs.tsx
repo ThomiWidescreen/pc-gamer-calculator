@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { InputContext } from "../context/inputContext";
+import { InputContext } from "../context/InputContext";
 import { useNavigate } from "react-router-dom";
 import { InputData } from "../interfaces/interfaces";
 
