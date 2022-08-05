@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital@1&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bebas {
+  font-family: "Bebas Neue", cursive;
+}
+
+.ebgaramond {
+  font-family: "EB Garamond", serif;
+}
