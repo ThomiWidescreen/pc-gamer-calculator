@@ -57,7 +57,7 @@ export default function Try() {
           Color de pelo
         </label>
         <select
-          className="text-2xl border-2 rounded-sm border-black p-1"
+          className="text-xl md:text-2xl border-2 rounded-sm border-black md:p-1"
           name="hairColor"
           id="hairColor"
           onChange={(e) =>
@@ -78,7 +78,7 @@ export default function Try() {
 
       <div className="flex justify-start">
         <h1 className="my-auto  text-xl md:text-2xl w-1/3">Largo del pelo</h1>
-        <ul className="flex gap-3">
+        <ul className="grid grid-cols-2 p-8 md:p-0 md:flex gap-3">
           <li>
             <input
               type="radio"
@@ -157,7 +157,7 @@ export default function Try() {
             })
           }
           value={inputData.eyeColor}
-          className="text-2xl border-2 border-black p-1 rounded-sm"
+          className="text-xl md:text-2xl border-2 rounded-sm border-black md:p-1"
         >
           <option value="black">Negro</option>
           <option value="blue">Azul</option>
@@ -170,7 +170,7 @@ export default function Try() {
         <h1 className=" text-xl md:text-2xl my-auto w-1/3">
           Tamaño de las tetas
         </h1>
-        <ul className="flex gap-3">
+        <ul className="grid grid-cols-2 p-8 md:p-0 md:flex gap-3">
           <li>
             <input
               type="radio"
@@ -258,7 +258,7 @@ export default function Try() {
             })
           }
           value={inputData.physicalContext}
-          className="border-2 border-black p-1 rounded-sm text-2xl"
+          className="text-xl md:text-2xl border-2 rounded-sm border-black md:p-1"
         >
           <option value="thin">Flaca</option>
           <option value="sporty">Deportista</option>
